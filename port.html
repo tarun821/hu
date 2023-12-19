@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Tarun Portfolio</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <section>
+    <div class="header-1">
+        <div class="head">
+            <header>
+                <div class="logo">
+                    <div class="logo-text">Tarun Koduru</div>
+                </div>
+                <nav>
+                    <div class="New">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="container">
+                <div class="hp">
+                    <img src="./new.jpeg">
+                </div><br>
+                <div class="home-content">
+                    <h5 style="letter-spacing: 2px;">Hello,I'm<span class="input">Frontend Developer</span></h5>
+                    <h1 >Tarun Koduru</h1>
+                    <div class="home-sci">
+                        <a href="#" ><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" ><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#" ><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" ><i class="fa-brands fa-whatsapp"></i></a>
+
+                        <div class="btn-group">
+                            <a href="./New-Resume.pdf" class="btn-box">Download Resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="about">
+    <p class="section-p1">Get To Know More</p><h1></h1>
+
+</section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script> 
+    <script>
+        var New = document.querySelector(".New");
+        var nav = document.querySelector(".nav");
+        var links = document.querySelector(".nav li");
+        New.addEventListener("click",function(){
+            this.classList.New("click");
+            nav.classList.New("open");
+        })
+        var typed = new Typed("input",{
+            String : ["Frontend Developer","Web Developer"],
+            typeSpeed :100,
+            backSpeed :100,
+            backDelay:1000,
+            loop:true
+        })
+    </script>
+</body>
+</html>

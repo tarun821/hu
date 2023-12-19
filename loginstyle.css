@@ -1,0 +1,61 @@
+body{
+    font-style: italic;
+    background-image: url(./silhouette-switzerland-surselva-mountains-3l.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.671);
+    width:25%;
+    border-radius: 100px;
+    margin:125px auto;
+    padding:50px;
+    box-shadow: 10px 10px 5px cyan;
+}
+#btn{
+    cursor: pointer;
+    text-decoration: none;
+    border-color: cyan;
+    color:black;
+    font-weight: 500;
+    background-color:cyan;
+    padding:4px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.hint{
+    text-decoration: none;
+    color: black;
+    background-color: cyan;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+.hint:hover{
+    box-shadow: 0 0 5px cyan,0 0 25px cyan,
+    0 0 50px cyan,0 0 100px cyan;
+}
+.i1{
+    border-top: 1px;
+    border-left: 1px;
+    border-right:1px;
+    color: black;
+    font-weight: 500;
+}
+.i2{
+    border-top: 1px;
+    border-left: 1px;
+    border-right:1px;
+    color: black;
+    font-weight: 500;
+}
+@media screen and (max-width: 600px) {
+    #form {
+      width: 65%;
+      margin-left:none;
+      padding:40px;
+    }
+  }
